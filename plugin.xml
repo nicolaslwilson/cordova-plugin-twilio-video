@@ -31,8 +31,8 @@
         <pods-config ios-min-version="10" use-frameworks="true">
           <!-- If you are facing 'spec' issues on "ionic cordova platform add ios" un commit this section, here I am specificying which
           github path the specs for the needed Twilio v1 SDK is located -->
-          <!-- <source url="https://github.com/CocoaPods/Specs"/>
-          <source url="https://github.com/CocoaPods/Specs/tree/master/Specs/1/d/9/TwilioVideo/'"/> -->
+          <source url="https://github.com/CocoaPods/Specs"/>
+          <source url="https://github.com/CocoaPods/Specs/tree/master/Specs/1/d/9/TwilioVideo/'"/>
         </pods-config>
         <pod name="TwilioVideo" version="3.4.1" />
 
